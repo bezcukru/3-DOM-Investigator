@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS DOM Investigator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form class="form form--add">
+            <h2 class="form__title">Add a DOM element</h2>
+            <input type="text" class="form__input" placeholder="HTML element" required>
+            <input type="text" class="form__input" placeholder="Inner text">
+            <input type="text" class="form__input" placeholder="Attribute">
+            <input type="text" class="form__input" placeholder="Attribute value">
+            <button class="form__button form__button--add">Add element</button>
+            <button class="form__button form__button--clear">Clear all</button>
+        </form>
+        <form class="form form--search">
+        <h2 class="form__title">Search the DOM</h2>
+        <input type="text" class="form__input" placeholder="Element name" required>
+        <input type="submit" class="form__button" value="Find and show information">
+    </form>
+</div>
+<div class="result"></div>
+<div class="content"></div>
+<footer class="footer">Stopka</footer>
+    <script src="main.js"></script>
+</body>
+</html>
