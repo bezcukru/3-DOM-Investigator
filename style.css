@@ -41,7 +41,7 @@ body {
 }
 
 .form__button {
-    margin: 30px 5px;
+    margin: 10px 5px;
     padding: 10px 20px;
     border: 2px solid #fff;
     text-transform: uppercase;
@@ -64,7 +64,16 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-
+.result {
+    display: grid;
+    
+}
+.content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 0 2px 1px #ccc;
+}
 .footer {
     background-color: #4F9AB3;
     height: 50px;

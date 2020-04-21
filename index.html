@@ -10,17 +10,17 @@
 <body>
     <div class="form-container">
         <form class="form form--add">
-            <h2 class="form__title">Add a DOM element</h2>
+            <h2 class="form__title">Add an element to HTML DOM</h2>
             <input type="text" class="form__input" name="node" placeholder="HTML element" required>
             <input type="text" class="form__input" name="txt" placeholder="Inner text">
             <input type="text" class="form__input" name="attr" placeholder="Attribute">
             <input type="text" class="form__input" name="val" placeholder="Attribute value">
-            <button class="form__button form__button--add">Add element</button>
-            <button class="form__button form__button--clear">Clear all</button>
+            <button class="form__button form__button--add" type="submit">Add element</button>
+            <button class="form__button form__button--clear" type="reset">Clear all</button>
         </form>
         <form class="form form--search">
         <h2 class="form__title">Search the DOM</h2>
-        <input type="text" class="form__input" placeholder="Element name" required>
+        <input type="text" class="form__input" placeholder="Element name" required name="element-query">
         <input type="submit" class="form__button" value="Find and show information">
     </form>
 </div>
