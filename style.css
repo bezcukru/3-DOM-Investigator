@@ -62,11 +62,20 @@ body {
 
 .result, .content, .footer {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 .result {
     display: grid;
-    
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.result_info {
+    grid-column: 1/-1;
+    text-align: center;
+}
+.element_info {
+    padding: 5px;
+    border: 1px solid #B3793D;
 }
 .content {
     margin-top: 10px;

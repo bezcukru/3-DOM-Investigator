@@ -35,7 +35,7 @@ const searchElement = (e, element) => {
 const showInfo = (elements, infoBox) => {
     elements.forEach( element => {
         const item = document.createElement('div');
-        item.className = 'element-info';
+        item.className = 'element_info';
         item.innerHTML = `
         <div>${element.nodeName}</div>
         <div>Class: ${element.className}</div>
