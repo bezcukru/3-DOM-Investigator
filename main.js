@@ -23,7 +23,7 @@ const searchElement = (e, element) => {
     if (elements.length > 1) {
         infoBox.innerHTML = `<p class="result_info"> There are ${elements.length} <strong>${element}</strong> elements in this document:</p>`;
         showInfo(elements, infoBox);
-    } else if (elements.length = 1){
+    } else if (elements.length == 1){
         infoBox.innerHTML = `<p class="result_info"> There is 1  <strong>${element}</strong> element in this document:</p>`;
         showInfo(elements, infoBox);
     } else {
